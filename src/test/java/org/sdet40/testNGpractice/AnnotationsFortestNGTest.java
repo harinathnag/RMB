@@ -6,7 +6,8 @@ public class AnnotationsFortestNGTest {
 	
 	      @Test(priority = 1)
 	      public void openAccountTest()
-	      {
+	      { 
+	    	  //print account generated
 	    	  System.out.println("account no is generated");
 	      }
 	      @Test(priority = 2)
