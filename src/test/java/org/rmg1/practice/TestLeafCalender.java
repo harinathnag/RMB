@@ -28,6 +28,8 @@ public class TestLeafCalender {
 		    int requiredMonthInNumber = DateTimeFormatter.ofPattern("MMMM").withLocale(Locale.ENGLISH).parse(requiredMonth).get(ChronoField.MONTH_OF_YEAR);
 		    int requiredYearInNumber = Integer.parseInt(requiredYear);
 		    
+		    //open the url
+		    
 		    driver.get("https://testleaf.herokuapp.com/pages/Calendar.html");
 		    driver.findElement(By.id("datepicker")).click();
 		   
