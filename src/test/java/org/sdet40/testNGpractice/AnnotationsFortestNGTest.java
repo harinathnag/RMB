@@ -13,6 +13,7 @@ public class AnnotationsFortestNGTest {
 	      @Test(priority = 2)
 	      public void debitCardTest()
 	      {
+	    	  //debit card no. generated
 	    	  System.out.println("debit card no is generated");
 	      }
 	      @Test(priority = 3)
