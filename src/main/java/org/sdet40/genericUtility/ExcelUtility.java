@@ -16,6 +16,12 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
+/**
+ * This is used to fetch the data from excel
+ * @author Naresh Ediga
+ *
+ */
+
 public class ExcelUtility {
 	
 	     Workbook workbook;
