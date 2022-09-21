@@ -9,6 +9,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ApplyDebitCardPage 
 {
+		
+		//This is the declaration
 	
 		@FindBy(xpath="//input[@placeholder='Account Holder Name']")
 		private WebElement accHolderName;
