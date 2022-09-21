@@ -10,7 +10,11 @@ import java.util.List;
 
 import com.mysql.jdbc.Driver;
 
-
+/**
+ * This class is developed to get data from database
+ * @author Naresh Ediga
+ *
+ */
 public class DatabaseUtility {
             
 	      Connection connection;
