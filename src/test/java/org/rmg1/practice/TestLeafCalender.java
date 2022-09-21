@@ -19,6 +19,8 @@ public class TestLeafCalender {
 		    driver.manage().window().maximize();
 		    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		    
+		    //convert the number into string
+		    
 		    String requiredDate = "17";
 		    String requiredMonth = "December";
 		    String requiredYear = "2022";
